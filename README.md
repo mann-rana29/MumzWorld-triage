@@ -75,23 +75,3 @@ mumzworld-cs-triage/
 3. The model returns a JSON response with intent, urgency, confidence, and suggested replies
 4. Pydantic validates the response and enforces escalation rules (e.g., low confidence = escalate, high urgency complaint = escalate)
 5. Results are displayed in the UI with color-coded badges and reply columns
-
-## Eval Results
-
-The eval suite scores on 3 dimensions: intent match, urgency match, and escalation match.
-
-| Metric | Score |
-|--------|-------|
-| Intent accuracy | ~85% |
-| Urgency accuracy | ~85% |
-| Escalate accuracy | ~90% |
-| Pass threshold | 70% |
-
-Edge cases like Arabizi (transliterated Arabic) and very vague emails tend to score lower, which is expected.
-
-## Known Limitations
-
-- Very short emails don't have enough signal for confident classification
-- Only handles Gulf Arabic dialect for reply generation
-- Triages individual emails, not conversation threads
-- No fine-tuning — relies entirely on prompt engineering
