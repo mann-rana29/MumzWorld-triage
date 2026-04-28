@@ -82,7 +82,7 @@ def render_results(result: TriageOutput):
             st.markdown("**Arabic Reply**")
             if result.suggested_reply_ar:
                 st.markdown(
-                    f'<div dir="rtl" style="background-color:#e8f4f8;padding:12px;'
+                    f'<div dir="rtl" style="background-color:#111111;padding:12px;'
                     f'border-radius:8px;font-size:16px;line-height:1.8;">'
                     f'{result.suggested_reply_ar}</div>',
                     unsafe_allow_html=True,
