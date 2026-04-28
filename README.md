@@ -62,7 +62,7 @@ mumzworld-cs-triage/
 ├── data/
 │   └── sample_emails.json  # 20 sample emails for demo
 ├── evals/
-│   ├── test_cases.json     # 15 test cases
+│   ├── test_cases.json     # 5 test cases
 │   └── run_evals.py        # Eval runner with scoring
 ├── requirements.txt
 └── .env                    # API key (not committed)
