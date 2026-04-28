@@ -1,0 +1,142 @@
+[
+  {
+    "id": "sample_001",
+    "subject": "Refund for damaged car seat",
+    "email": "Hello Mumzworld team,\n\nI received my Joie car seat (order MW-2024-41023) yesterday and the buckle mechanism is completely broken. My daughter can't use this safely. I need a full refund — I can't wait for a replacement because I need a car seat for travel this weekend.\n\nPlease process this ASAP.\n\nThanks,\nSarah",
+    "expected_intent": "refund_request",
+    "expected_urgency": "medium"
+  },
+  {
+    "id": "sample_002",
+    "subject": "طلب استرجاع مبلغ",
+    "email": "السلام عليكم،\n\nطلبت كرسي أطفال للسيارة ماركة ماكسي كوزي من موقعكم الطلب رقم MW-2024-39847 ولما وصل طلع غير اللون اللي طلبته. أنا طلبت أسود وجاني رمادي. أبي فلوسي ترجع لو سمحتوا.\n\nشكراً",
+    "expected_intent": "refund_request",
+    "expected_urgency": "medium"
+  },
+  {
+    "id": "sample_003",
+    "subject": "Where is my refund??",
+    "email": "Hi,\n\nI returned a Philips Avent breast pump 3 weeks ago (order MW-2024-33210). Your warehouse confirmed they received it but I STILL haven't gotten my refund. This is AED 450 we're talking about. I've called twice and nobody gives me a straight answer.\n\nI'm in Abu Dhabi and honestly considering going to consumer protection if this isn't resolved by Sunday.\n\nRegards,\nAmina K.",
+    "expected_intent": "refund_request",
+    "expected_urgency": "high"
+  },
+  {
+    "id": "sample_004",
+    "subject": "ردوا فلوسي بسرعة",
+    "email": "أنا مو راضية أبداً! طلبت شنطة حفاضات من مامز وورلد الطلب MW-2024-45501 وصلتني مستخدمة!! فيها خدوش وبقع. هالشي مو مقبول أبد. أبي ترجعون فلوسي اليوم مو باچر. أنا في الرياض ومستعدة أرسل صور لكل العيوب.",
+    "expected_intent": "refund_request",
+    "expected_urgency": "high"
+  },
+  {
+    "id": "sample_005",
+    "subject": "Order not delivered - 2 weeks late",
+    "email": "Hi Mumzworld,\n\nMy order MW-2024-42876 was supposed to arrive 2 weeks ago in Dubai Marina. The tracking still shows 'in transit' and nobody at your support line can tell me where it is. This was a baby monitor I need before my due date next week.\n\nCan someone actually help?\n\nMona",
+    "expected_intent": "delivery_issue",
+    "expected_urgency": "high"
+  },
+  {
+    "id": "sample_006",
+    "subject": "طلبي ما وصل",
+    "email": "مرحبا،\n\nأنا طلبت حفاضات بامبرز كرتون كامل الطلب رقم MW-2024-44190 من أسبوع وما وصل لين الحين. أنا في أبوظبي والتوصيل المفروض خلال ٣ أيام. شو السالفة؟ محتاجة الحفاضات ضروري لبيبي.",
+    "expected_intent": "delivery_issue",
+    "expected_urgency": "medium"
+  },
+  {
+    "id": "sample_007",
+    "subject": "Wrong address on delivery",
+    "email": "Hello,\n\nI just noticed my order MW-2024-43555 is being shipped to my old address in JLT. I updated my address to Dubai Hills last month. Can you please redirect the package? It's a Graco stroller and I really need it this week.\n\nThank you,\nFatima",
+    "expected_intent": "delivery_issue",
+    "expected_urgency": "medium"
+  },
+  {
+    "id": "sample_008",
+    "subject": "التوصيل متأخر وايد",
+    "email": "يا جماعة والله إنكم طفشتوني!! الطلب MW-2024-46230 المفروض يوصل قبل ٥ أيام. كل ما أتصل تقولون باچر باچر ومحد يرد. أنا طلبت حليب نان لبنتي وهي محتاجته!! لو ما وصل اليوم بنزل في تويتر والانستقرام وأحذر الناس منكم.",
+    "expected_intent": "delivery_issue",
+    "expected_urgency": "high"
+  },
+  {
+    "id": "sample_009",
+    "subject": "Question about stroller compatibility",
+    "email": "Hi there,\n\nI have a Bugaboo Fox 5 and I'm wondering if the Bugaboo cup holder you sell on your site is compatible with it? Also, do you have the rain cover in stock? I'm in Dubai and would prefer to pick up from your store if possible.\n\nThanks!",
+    "expected_intent": "product_query",
+    "expected_urgency": "low"
+  },
+  {
+    "id": "sample_010",
+    "subject": "هل عندكم هالمنتج؟",
+    "email": "هلا،\n\nأبي أسأل عن كرسي الأكل من شيكو بولي ماجيك، هل متوفر عندكم باللون الأخضر؟ وكم سعره؟ وهل فيه توصيل للرياض؟\n\nمشكورين",
+    "expected_intent": "product_query",
+    "expected_urgency": "low"
+  },
+  {
+    "id": "sample_011",
+    "subject": "Formula recommendations for 6 month old",
+    "email": "Hello Mumzworld,\n\nMy baby just turned 6 months and we're transitioning from breast milk. Our pediatrician suggested a gentle formula. Do you carry Aptamil Comfort? What's the difference between the regular and the HA version? Also what's your return policy if my baby doesn't take to it?\n\nBest,\nLina - Sharjah",
+    "expected_intent": "product_query",
+    "expected_urgency": "low"
+  },
+  {
+    "id": "sample_012",
+    "subject": "Absolutely terrible experience",
+    "email": "I am FURIOUS with Mumzworld right now. I ordered a crib for my newborn (MW-2024-40198) and it arrived with missing screws and a cracked side panel. This is a SAFETY HAZARD for my 2-month-old baby!! I've been trying to reach someone for 4 days and keep getting put on hold.\n\nI want this escalated to a manager immediately. I'm filing a complaint with Dubai Consumer Protection and posting reviews everywhere until this is fixed. This is absolutely unacceptable for a company that claims to care about babies.\n\nDISGUSTED CUSTOMER",
+    "expected_intent": "complaint",
+    "expected_urgency": "high"
+  },
+  {
+    "id": "sample_013",
+    "subject": "شكوى على الخدمة",
+    "email": "السلام عليكم،\n\nأنا عميلة عندكم من ٤ سنوات بس للأسف آخر تجربة كانت سيئة. طلبت مجموعة ملابس لبنتي وجاتني أحجام غلط والأقمشة نوعيتها أقل من الصور على الموقع. حاولت أتواصل مع خدمة العملاء ٣ مرات وكل مرة يقولون بنتواصل معاك ومحد تواصل.\n\nأتمنى تحلون الموضوع لأني كنت أحب أتسوق من عندكم.",
+    "expected_intent": "complaint",
+    "expected_urgency": "medium"
+  },
+  {
+    "id": "sample_014",
+    "subject": "Your app is broken",
+    "email": "Hey,\n\nJust wanted to let you know your app keeps crashing every time I try to checkout. I've tried 5 times today on my iPhone. The cart total shows AED 0 even though I have items. Pretty annoying but not urgent — I'll just order from the website.\n\nCheers",
+    "expected_intent": "complaint",
+    "expected_urgency": "low"
+  },
+  {
+    "id": "sample_015",
+    "subject": "Exchange stroller color",
+    "email": "Hi Mumzworld,\n\nI just received my Silver Cross Reef stroller in Orbit Black (MW-2024-43901) but I actually wanted the Earth color. It hasn't been used — still in the box. Can I exchange it at your Dubai Mall store? Or do I need to ship it back?\n\nThanks,\nReem",
+    "expected_intent": "exchange_request",
+    "expected_urgency": "medium"
+  },
+  {
+    "id": "sample_016",
+    "subject": "أبي أستبدل المنتج",
+    "email": "مرحبا مامز وورلد،\n\nطلبت حذاء أطفال مقاس ٢٢ الطلب MW-2024-45002 بس طلع صغير على ولدي. أبي أستبدله بمقاس ٢٤ نفس الموديل. المنتج ما انلبس ولا مرة. كيف الطريقة؟\n\nشكراً",
+    "expected_intent": "exchange_request",
+    "expected_urgency": "low"
+  },
+  {
+    "id": "sample_017",
+    "subject": "Need help not sure what to do",
+    "email": "um hi.. so I bought something from your site a while ago and I'm not sure if I want to return it or exchange it or what. it's like a thing for the baby but I lost the receipt and I don't remember the order number. also I moved to a new apartment. can someone call me? my number is 050-XXX-XXXX",
+    "expected_intent": "other",
+    "expected_urgency": "low"
+  },
+  {
+    "id": "sample_018",
+    "subject": "هل تقدرون تساعدوني؟",
+    "email": "أنا ما أعرف وين أرسل هالإيميل بس محتاجة مساعدة. بنتي عندها حساسية من الحليب العادي والدكتور قال لازم حليب خاص بس أنا ما لقيته بالصيدليات. هل عندكم شي يفيد؟ وهل تقدرون توصلون في نفس اليوم؟ أنا بجدة.",
+    "expected_intent": "product_query",
+    "expected_urgency": "medium"
+  },
+  {
+    "id": "sample_019",
+    "subject": "Congratulations!! You've won!",
+    "email": "CONGRATULATIONS!! You have been selected as the WINNER of our AED 50,000 shopping spree!! Click the link below to claim your prize NOW!! This offer expires in 24 HOURS!!\n\nwww.totally-not-a-scam.com/claim\n\nAct fast!!",
+    "expected_intent": "other",
+    "expected_urgency": "low"
+  },
+  {
+    "id": "sample_020",
+    "subject": "Delivery ya3ni mish mawjoud",
+    "email": "Hii mumzworld,\n\nAna order kaman min 3 days w tracking byoul inno delivered bas wallah ma wasal shi. El order number MW-2024-47733. Ana fi Dubai Marina w el concierge checked kamaan mafi shi. Yalla plz help shou el solution?\n\nMerci xx",
+    "expected_intent": "delivery_issue",
+    "expected_urgency": "medium"
+  }
+]

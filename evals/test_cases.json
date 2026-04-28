@@ -1,0 +1,42 @@
+[
+  {
+    "id": "tc_001",
+    "email": "Hi Mumzworld, I want a full refund for order MW-2024-41500. The baby bottle set arrived cracked and unusable. Please process ASAP.",
+    "expected_intent": "refund_request",
+    "expected_urgency": "medium",
+    "expected_escalate": false,
+    "notes": "Clear refund request with order number and defect description"
+  },
+  {
+    "id": "tc_002",
+    "email": "السلام عليكم، طلبي رقم MW-2024-42100 ما وصل من ١٠ أيام. أنا في دبي والتوصيل كان المفروض خلال ٣ أيام. وين طلبي؟",
+    "expected_intent": "delivery_issue",
+    "expected_urgency": "medium",
+    "expected_escalate": false,
+    "notes": "Standard Arabic delivery complaint, clear intent"
+  },
+  {
+    "id": "tc_003",
+    "email": "Do you have the Cybex Sirona car seat in midnight blue? What's the weight limit? My son is 14kg. We're in Abu Dhabi.",
+    "expected_intent": "product_query",
+    "expected_urgency": "low",
+    "expected_escalate": false,
+    "notes": "Straightforward product question"
+  },
+  {
+    "id": "tc_004",
+    "email": "I received a size S onesie but ordered size M (MW-2024-43800). Baby hasn't worn it. Can I swap for the right size? I'm near your Dubai Mall store.",
+    "expected_intent": "exchange_request",
+    "expected_urgency": "low",
+    "expected_escalate": false,
+    "notes": "Clear exchange request with order details"
+  },
+  {
+    "id": "tc_005",
+    "email": "I am DISGUSTED with your service. My baby's formula order MW-2024-39100 has been delayed 3 WEEKS. My infant NEEDS this formula — this is a health issue!! I'm going to the media and filing with consumer protection TODAY.",
+    "expected_intent": "complaint",
+    "expected_urgency": "high",
+    "expected_escalate": true,
+    "notes": "High urgency complaint — child health concern + media threat. Must escalate."
+  }
+]
