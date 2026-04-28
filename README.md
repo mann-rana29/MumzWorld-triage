@@ -74,4 +74,4 @@ mumzworld-cs-triage/
 2. The email is sent to Gemma 3 27B along with a system prompt that defines the classification rules
 3. The model returns a JSON response with intent, urgency, confidence, and suggested replies
 4. Pydantic validates the response and enforces escalation rules (e.g., low confidence = escalate, high urgency complaint = escalate)
-5. Results are displayed in the UI with color-coded badges and reply columns
+5. Results are displayed in the reply columns
